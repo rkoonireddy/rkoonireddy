@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @rkoonireddy
 - 👀 I’m interested in bulding products for common man's benefit.
-- 🌱 I’m currently learning Economics, Finance, and Computer Science. What an odd combination of subjects!!!
+- 🌱 I’m currently learning Economics, Finance, and Computer Science.
 - 💞️ I’m looking to collaborate on startups and projects in the fields of finance, agriculture, and education. 
 
 I beleive in the quote " Simplicity is the ultimate Sophistication" - Said by many, followed by very few.
