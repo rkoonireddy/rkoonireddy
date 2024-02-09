@@ -8,7 +8,7 @@
 rkoonireddy/rkoonireddy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">An explorer by nature and an implementer by trade.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rkoonireddy&label=Profile%20views&color=0e75b6&style=flat" alt="rkoonireddy" /> </p>
 
