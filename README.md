@@ -18,7 +18,7 @@ You can click the Preview link to take a look at your changes.
 
 - 👯 I’m looking to collaborate on **Startups**
 
-- 💬 Ask me about **NLP, Economics, Finance**
+- 💬 Ask me about **AI, NLP, Economics, Finance**
 
 - 📫 How to reach me **rohit.koonireddy@gmail.com**
 
