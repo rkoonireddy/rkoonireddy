@@ -73,6 +73,12 @@
     <a href="https://reactjs.org/" target="_blank">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
     </a>
+    <a href="https://nextjs.org/" target="_blank">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="Next.js" width="40" height="40"/>
+    </a>
+    <a href="https://payloadcms.com/" target="_blank">
+      <img src="https://payloadcms.com/images/og-image.jpg" alt="Payload CMS" width="40" height="40" style="border-radius: 8px;"/>
+    </a>
   </p>
 </div>
 
