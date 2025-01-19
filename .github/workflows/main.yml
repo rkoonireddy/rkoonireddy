@@ -10,7 +10,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Generate Snake
@@ -18,12 +18,16 @@ jobs:
         with:
           github_user_name: rkoonireddy
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            github-snake.svg
+            github-snake-dark.svg?palette=github-dark
+            ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Push Snake
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+      - name: Commit and Push Generated Files
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add github-snake.svg
+          git commit -m "Update GitHub Snake SVG"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
