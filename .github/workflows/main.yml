@@ -1,10 +1,11 @@
 name: Generate Snake
 
 on:
-  push:
-    branches:
-      - main  # Run on push to the 'main' branch
-
+  schedule:
+    # Runs at 5:00 AM UTC daily
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+  
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -18,7 +19,8 @@ jobs:
           github_user_name: rkoonireddy
           outputs: |
             github-snake.svg
-            github-snake-dark.svg
+            github-snake-dark.svg?palette=github-dark
+            ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Commit and Push Generated Files
         run: |
