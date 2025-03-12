@@ -43,8 +43,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/rkoonireddy/rkoonireddy/main/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/rkoonireddy/rkoonireddy/main/github-snake.svg"/>
 </picture>
+<p>
+  
+</p>
 <!-- <img src="https://github.com/rkoonireddy/rkoonireddy/blob/output/github-contribution-grid-snake.gif"/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=rkoonireddy" alt="GitHub Activity Graph" /> -->
 <a href = "https://metrics.lecoq.io/insights?user=rkoonireddy" alt="Detailed Stas" /> Detailed Stats </a>
